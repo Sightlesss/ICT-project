@@ -11,15 +11,15 @@ red = (200, 50, 80)
 green = (0, 200, 0)
 darkblue = (20, 50, 100)
 #This part identify the size of the game 
-display_width = 1000
-display_height = 800
+display_width = 800
+display_height = 600
 #this part run the game with parametr width and height, also on the caption write name of the game 
 display = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('Snake game by 02-P(A)')
 clock = pygame.time.Clock()
 #identify snake size and speed 
-snake_size = 10
-snake_velo = 20 
+snake_size = 20
+snake_velo = 30
 #font settings
 font_style = pygame.font.SysFont("Times new roman", 25)
 score_font = pygame.font.SysFont("Times new roman", 35) 
